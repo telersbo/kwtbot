@@ -1,7 +1,7 @@
 {
- "name": "TeleBot - UserBot",
- "description": "An advanced Telethon Userbot, from @TeleBotSupport",
- "logo": "https://telegra.ph/file/34b810002e7a3ee86a21e.png",
+ "name": "kw-telebot",
+ "description": "bot kwtbot for iraqi and me ch @iqtelebot and ma dav @llllflf",
+ "logo": "https://telegra.ph/file/16a24c2f4d4b5435bf7b4.jpg",
  "keywords": [
   "telegram",
   "userbot",
@@ -10,7 +10,7 @@
   "productivity"
  ],
  "repository": "https://github.com/xditya/TeleBot/",
- "website": "https://xditya.gitbook.io/telebot/",
+ "website": "https://xditya.gitbook.io/kwtbot/",
  "success_url": "https://t.me/TeleBotHelp/13",
  "stack": "container",
  "env": {
@@ -25,19 +25,19 @@
   },
   "APP_ID": {
    "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
+   "value": "ايبي ايدي"
   },
   "API_HASH": {
    "description": "Get this value from my.telegram.org! Please do not steal",
-   "value": ""
+   "value": "ايبي هاش"
   },
   "STRING_SESSION": {
    "description": "Get this value by running python3 telesetup.py locally or https://telebot-sessionstring-generator.xditya.repl.run online.",
-   "value": ""
+   "value": "كود تيرمكس"
   },  
   "CUSTOM_PMPERMIT": {
    "description": "The message that appears when someone PM's you. Leave it as such for default message.",
-   "value": "Do not spam here, else you will be blocked automatically."
+   "value": "Do not spam here, else you will be blocked automatically.لا ترسل بريدًا عشوائيًا هنا ، وإلا فسيتم حظرك تلقائيًا."
   },  
   "CUSTOM_AFK": {
    "description": "The message that appears when you go afk. Leave it as such for default.",
@@ -70,7 +70,7 @@
   },
   "HEROKU_API_KEY": {
    "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-   "value": "",
+   "value": "كود الموقع الاعلى",
    "required": true
   },  
   "CHROME_BIN": {
@@ -85,32 +85,32 @@
   },
   "SUDO_USERS": {
    "description": "Users you want to give access to your bot. (Don't allow unknown people)",
-   "value": "",
+   "value": "ايدي المطور",
    "required": false
   },
   "PRIVATE_GROUP_BOT_API_ID": {
    "description": "Must read https://telegra.ph/TeleBot-Setup-06-06 for knowing how to get the value. Required for pmpermit.",
-   "value": "",
+   "value": "ايدي المجموعة + سجل المجموعة ضاهر",
    "required": true
   },
   "PRIVATE_GROUP_ID": {
    "description": "Same value as PRIVATE_GROUP_BOT_API_ID. Must read https://telegra.ph/TeleBot-Setup-06-06 for knowing how to get the value. Required for pmpermit.",
-   "value": "",
+   "value": "ايدي المجموعة + سجل المجموعة ضاهر",
    "required": true
   },
   "HEROKU_APP_NAME": {
    "description": "The Value of App Name you filled in right on top.Required for updater to work.",
-   "value": "",
+   "value": "اسم التطبيق الاعلى للتحديث",
    "required": true
   },
   "TG_BOT_TOKEN_BF_HER": {
    "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. Get it else .help won't work.",
-   "value": "",
+   "value": "توكن البوت من بوت  فاذر + صلاحيه البوت انلاين",
    "required": true
   },
   "TG_BOT_USER_NAME_BF_HER": {
    "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot. Needed for .help to work.",
-   "value": "",
+   "value": "معرف البوت",
    "required": true
   },
   "DOWNLOAD_PFP_URL_CLOCK": {
@@ -120,7 +120,7 @@
   },
   "ALIVE_NAME": {
    "description": "Your Telegram Username. ",
-   "value": "",
+   "value": "اسم الحساب",
    "required": false
   },  
   "MAX_SPAM": {
@@ -140,17 +140,17 @@
   },
   "ALIVE_PIC": {
    "description": "telegra.ph link to theimage you want as alive pic, leave blank for sticker",
-   "value": "",
+   "value": "صوره للحساب",
    "required": false
   },
   "PMPERMIT_PIC": {
   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
-  "value": "",
+  "value": "رابط صوره تلكراف ل ايقونه حمايه البوت",
   "required": false
   },
   "TZ": {
    "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-   "value": "",
+   "value": "Asia/Baghdad",
    "required": false
   }
  },
