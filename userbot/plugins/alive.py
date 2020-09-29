@@ -59,14 +59,13 @@ async def amireallyalive(alive):
     if ALV_PIC:
         tele = f"**Welcome To TeleBot **\n\n"
         tele += "`مهلا! أنا حي. جميع الأنظمة متصلة بالإنترنت وتعمل بشكل طبيعي!`\n\n"
-        tele += "` 🎈 Telethon version:` **1.16.4**\n` ♻ Python:` **3.8.3**\n"
-        tele += f"` 🔰 kwtbot Version:` **{telever}**\n"
-        tele += "` 💌 More Info:` **@iqtelebot**\n"
-        tele += f"` ⚠ Sudo :` **{sudo}**\n"
-        tele += f"` 🕕 kwtbot Uptime:` **{uptime}**\n"
-        tele += "` 🔸 Database Status:` **All OK 👌!**\n"
-        tele += f"` 🔹 My pro owner` : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n"
-        tele += "    [✨ GitHub Repository ✨](https://github.com/TH7RM/kwtbot)"
+        tele += f"**✧ Telethon version :** `{version.__version__}\n`"
+        tele += f"**✧ Kwtbot Version :** `{catversion}`\n"
+        tele += f"**✧ More Info :** {@kwtbot}\n"
+        tele += f"**✧ Uptime :** `{uptime}\n`"
+        tele += f"**✧ Database Status :** `All OK 👌!\n`"
+        tele += f"**✧ My Master:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
+        tele += "   ✧ [ GitHub ](https://github.com/TH7RM/kwtbot)"
 
         chat = await alive.get_chat()
         await alive.delete()
@@ -85,13 +84,12 @@ async def amireallyalive(alive):
         sticker.seek(0)
         await borg.send_message(alive.chat_id, f"**Welcome To TeleBot **\n\n"
                 "`مهلا! أنا حي. جميع الأنظمة متصلة بالإنترنت وتعمل بشكل طبيعي!`\n\n"
-                "` 🎈 Telethon version:` **1.16.4**\n` ♻ Python:` **3.8.3**\n"
-                f"` 🔰 kwtbot Version:` **{telever}**\n"
-                "` 💌 More Info:` **@TeleBotSupport**\n"
-                f"` ⚠ Sudo :` **{sudo}**\n"
-                f"` 🕕 kwtbot Uptime:` **{uptime}**\n"
-                "` 🔸 Database Status:` **All OK 👌!**\n"
-                f"` 🔹 My pro owner` : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n"
-                "    [✨ GitHub Repository ✨](https://github.com/TH7RM/kwtbot)", link_preview = False)
+                "**✧ Telethon version :** `{version.__version__}\n`"
+                f"**✧ Kwtbot Version :** `{catversion}`\n"
+                "**✧ More Info :** {@kwtbot}\n"
+                f"**✧ Uptime :** `{uptime}\n`"
+                "**✧ Database Status :** `All OK 👌!\n`"
+                f"**✧ My Master:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
+                "   ✧ [ GitHub ](https://github.com/TH7RM/kwtbot)", link_preview = False)
         await borg.send_file(alive.chat_id, file=sticker) 
         await alive.delete()
