@@ -6,7 +6,7 @@ import userbot.utils
 from datetime import datetime
 
 DELETE_TIMEOUT = 5
-thumb_image_path = "./TeleBot.png"
+thumb_image_path = "./kwtbot.jpg"
 
 @command(pattern="^.install", outgoing=True)
 async def install(event):
