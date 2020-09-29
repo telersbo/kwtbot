@@ -58,7 +58,7 @@ async def amireallyalive(alive):
     uptime = get_readable_time((time.time() - StartTime))
     if ALV_PIC:
         tele = f"**Welcome To TeleBot **\n\n"
-        tele += "`Hey! I'm alive. All systems online and functioning normally!`\n\n"
+        tele += "`مهلا! أنا حي. جميع الأنظمة متصلة بالإنترنت وتعمل بشكل طبيعي!`\n\n"
         tele += "` 🎈 Telethon version:` **1.16.4**\n` ♻ Python:` **3.8.3**\n"
         tele += f"` 🔰 kwtbot Version:` **{telever}**\n"
         tele += "` 💌 More Info:` **@iqtelebot**\n"
@@ -84,7 +84,7 @@ async def amireallyalive(alive):
         sticker.name = "sticker.webp"
         sticker.seek(0)
         await borg.send_message(alive.chat_id, f"**Welcome To TeleBot **\n\n"
-                "`Hey! I'm alive. All systems online and functioning normally!`\n\n"
+                "`مهلا! أنا حي. جميع الأنظمة متصلة بالإنترنت وتعمل بشكل طبيعي!`\n\n"
                 "` 🎈 Telethon version:` **1.16.4**\n` ♻ Python:` **3.8.3**\n"
                 f"` 🔰 kwtbot Version:` **{telever}**\n"
                 "` 💌 More Info:` **@TeleBotSupport**\n"
