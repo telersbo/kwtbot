@@ -63,7 +63,6 @@ async def amireallyalive(alive):
         tele += f"` ☬ Kwtbot Version:` **{telever}**\n"
         tele += "` ☬ More Info:` **@ikwtbot**\n"
         tele += f"` ☬ Uptime:` **{uptime}**\n"
-        tele += "` ☬ Database Status:` **All OK 👌!**\n"
         tele += f"* ☬ My Master** : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n"
         tele += "    [☬ GitHub Repository ☬](https://github.com/TH7RM/kwtbot)"
 
@@ -88,7 +87,6 @@ async def amireallyalive(alive):
                 f"` ☬ Kwtbot Version:` **{telever}**\n"
                 "` ☬ More Info:` **@ikwtbot**\n"
                 f"` ☬ Uptime :` **{uptime}**\n"
-                "` ☬ Database Status:` **All OK 👌!**\n"
                 f"** ☬ My Master** : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n"
                 "    [☬ GitHub Repository ☬](https://github.com/TH7RM/kwtbot)", link_preview = False)
         await borg.send_file(alive.chat_id, file=sticker) 
