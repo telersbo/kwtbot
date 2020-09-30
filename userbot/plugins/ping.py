@@ -1,5 +1,5 @@
 # special thanks to Sur_vivor 
-# Re-written for TeleBot by @its_xditya
+# Re-written for KWTBOT by @llllflf
 
 from telethon import events
 from datetime import datetime
@@ -41,8 +41,8 @@ async def _(event):
     if event.fwd_from:
         return
     start = datetime.now()
-    await event.edit("🏓 Pong!")
+    await event.edit("o̴̶‸o̴̶ Pong!")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
-    await event.edit(f"🏓Ping speed: {ms}\n🤖TeleBot Uptime: {uptime}")
+    await event.edit(f"'𖧷 Ping speed:' {ms}")
