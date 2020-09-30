@@ -41,8 +41,8 @@ async def _(event):
     if event.fwd_from:
         return
     start = datetime.now()
-    await event.edit("🏓 Pong!")
+    await event.edit("⁜ Pong!")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
-    await event.edit(f"🏓Ping speed: {ms}\n🤖TeleBot Uptime: {uptime}")
+    await event.edit(f"※Ping speed: {ms}\n™kwtbot Uptime: {uptime}")
