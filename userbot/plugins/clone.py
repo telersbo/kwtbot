@@ -16,7 +16,7 @@ from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
 from telethon.errors.rpcerrorlist import PhotoExtInvalidError, UsernameOccupiedError
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TeleBot"
-DEFAULTUSERBIO =  "sıɥʇ ǝpoɔǝp uǝɥʇ llıʇu∩ ˙ ǝɔɐds ǝʇɐʌıɹd ǝɯos ǝɯ ǝʌı⅁˙"
+DEFAULTUSERBIO =  "I❤YOU"
 if Config.PRIVATE_GROUP_BOT_API_ID is None:
     BOTLOG = False
 else:
