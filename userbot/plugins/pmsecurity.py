@@ -15,17 +15,17 @@ from userbot.utils import admin_cmd
 from userbot.events import register
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
-TELEPIC = PMPERMIT_PIC if PMPERMIT_PIC else "https://telegra.ph/file/572a121f67b75f97c7a6a.jpg"
+TELEPIC = PMPERMIT_PIC if PMPERMIT_PIC else "https://telegra.ph/file/16a24c2f4d4b5435bf7b4.jpg"
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 myid = bot.uid
 MESAG = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "`TeleBot PM security! Please wait for me to approve you. 😊"
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TeleBot User"
-USER_BOT_WARN_ZERO = "`I had warned you not to spam. Now you have been blocked and reported until further notice.`\n\n**GoodBye!** "
-USER_BOT_NO_WARN = ("**Welcome to TeleBot's PM security.**\n\nNice to see you here, but  "
-                    "[{}](tg://user?id={}) is currently unavailable.\nThis is an automated message.\n\n"
-                    "{}\n\n**You have** `{}/{}` **warnings...**"
-                    "\n\n   ~ Thank You.")
+USER_BOT_WARN_ZERO = "**لقد حذرتك من البريد العشوائي. الآن تم حظرك والإبلاغ عنه حتى إشعار آخر.**\n\n**وداعا!** "
+USER_BOT_NO_WARN = ("**مرحبا بكم في أمن kwtbot**\n\nيسعدني رؤيتك هنا لكن  "
+                    "[{}](tg://user?id={}) غير متوفر حاليا.\nهذه رسالة آلية.\n\n"
+                    "{}\n\n**لديك** `{}/{}` **تحذيرات...**"
+                    "\n\n   ~ شكرا.")
 
 
 @telebot.on(admin_cmd(pattern="approve ?(.*)"))
